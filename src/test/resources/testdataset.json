@@ -26,11 +26,6 @@
         "type": "negative - null",
         "value": null,
         "responseCode": 200
-      },
-      {
-        "type": "negative - invalid data type",
-        "value": "abcd",
-        "responseCode": 200
       }
     ],
     "search": [
@@ -72,12 +67,12 @@
         "responseCode": 403
       },
       {
-        "type": "negative - invalid data type",
+        "type": "negative - invalid data",
         "value": 100,
         "responseCode": 403
       },
       {
-        "type": "negative - invalid data type",
+        "type": "negative - invalid data",
         "value": "$*",
         "responseCode": 403
       },
